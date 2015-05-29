@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>lfreneda</authors>
+    <owners>lfreneda</owners>
+    <licenseUrl>https://github.com/lfreneda/TheChannelCakeFactory/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/lfreneda/TheChannelCakeFactory</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>channel proxy channelfactory wcf services service contract ServiceContract OperationContract</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ServiceModel" targetFramework="net45" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
