@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/lfreneda/TheChannelCakeFactory</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>First release \o\</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>channel proxy channelfactory wcf services service contract ServiceContract OperationContract</tags>
     <frameworkAssemblies>
