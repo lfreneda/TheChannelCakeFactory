@@ -8,6 +8,7 @@
     <owners>lfreneda</owners>
     <licenseUrl>https://github.com/lfreneda/TheChannelCakeFactory/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/lfreneda/TheChannelCakeFactory</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/lfreneda/TheChannelCakeFactory/master/cake.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>First release \o\</releaseNotes>
