@@ -28,16 +28,15 @@ namespace TheChannelCakeFactory.Tests
         }
 
         [Test]
-        public void GetBindingName_WhenGettingABindingNameForIFooWhichWasNotConfigured_ShouldReturnConventionNameWhichIsIFoo_BindingName()
+        public void GetBindingName_WhenGettingABindingNameForIFooWhichWasNotConfigured_ShouldReturnConventionNameWhichIsIFoo_Endpoint()
         {
-            _bindingNameConfiguration.GetBindingName<IFoo>().Should().Be("IFoo_BindingName");
+            _bindingNameConfiguration.GetBindingName<IFoo>().Should().Be("IFoo_Endpoint");
         }
 
         [Test]
         public void GetBindingName_WhenGettingABindingNameForIFooWhichWasConfigured_ShouldReturnIFoo_CustomName()
         {
             _bindingNameConfiguration.Configure<IFoo>("IFoo_CustomName");
-
             _bindingNameConfiguration.GetBindingName<IFoo>().Should().Be("IFoo_CustomName");
         }
 

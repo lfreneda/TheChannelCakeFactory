@@ -26,7 +26,7 @@ namespace TheChannelCakeFactory
 
             if (!BindingNames.ContainsKey(typeKey))
             {
-                return string.Format("{0}_BindingName", typeKey.Name);
+                return string.Format("{0}_Endpoint", typeKey.Name);
             }
 
             return BindingNames[typeKey];
