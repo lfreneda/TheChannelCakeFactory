@@ -1,2 +1,3 @@
 # TheChannelCakeFactory
-Its a little/tiny/simple way to create your proxy/channel from a service contract 
+
+Its a little/tiny/simple factory which creates proxy client from a service contract :cake:
